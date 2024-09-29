@@ -140,7 +140,7 @@ public class OnlineExamClientApp {
 							if (ans.equals(que.getAns())) {
 								que.setSatus(true);
 							}
-							index++;
+							++index;
 
 						} while (index != al.size());
 						System.out.println("Print all Questions :");
